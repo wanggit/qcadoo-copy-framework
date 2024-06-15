@@ -1,2 +1,2 @@
-# qcadoo-copy-framework
-copy from qcadoo
+# wg-framework
+base from qcadoo
