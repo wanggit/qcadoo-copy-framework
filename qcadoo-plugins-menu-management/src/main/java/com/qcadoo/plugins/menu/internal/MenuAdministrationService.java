@@ -63,6 +63,10 @@ public class MenuAdministrationService {
         HIDDEN_CATEGORIES.add(new String[] { "qcadooView", "administration" });
     }
 
+    /**
+     * 在菜单中避免显示 qcadooView 插件的 home与administration菜单
+     * @param viewDefinitionState
+     */
     public void addRestrictionToCategoriesGrid(final ViewDefinitionState viewDefinitionState) {
         GridComponent categoriesGrid = (GridComponent) viewDefinitionState.getComponentByReference(QcadooViewConstants.L_GRID);
 

@@ -23,6 +23,9 @@
  */
 package com.qcadoo.view.constants;
 
+/**
+ * 对应于 qcadooView 插件下 Category 实体的属性名，也就是对应表名 qcadooview_category
+ */
 public final class MenuCategoryFields {
 
     private MenuCategoryFields() {
